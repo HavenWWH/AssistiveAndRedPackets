@@ -14,6 +14,6 @@
     }];
 ```
 
-## DEMO
-## ![image](https://github.com/HavenWWH/AssistiveAndRedPackets.git/AssistiveAndRedPackets/redPackets.gif)  
+## DEMO    
+## ![image](https://github.com/HavenWWH/AssistiveAndRedPackets/master/redPackets.gif)  
 
