@@ -15,6 +15,8 @@
 		81D7CD5C1F26E35700F70384 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D7CD5A1F26E35700F70384 /* LaunchScreen.storyboard */; };
 		81D7CD671F26E35700F70384 /* RedPackAndAssistiveTouchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D7CD661F26E35700F70384 /* RedPackAndAssistiveTouchTests.m */; };
 		81D7CD721F26E35700F70384 /* RedPackAndAssistiveTouchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D7CD711F26E35700F70384 /* RedPackAndAssistiveTouchUITests.m */; };
+		81D7CD811F26E43200F70384 /* WindowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D7CD801F26E43200F70384 /* WindowView.m */; };
+		81D7CD841F26E44900F70384 /* UIView+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D7CD831F26E44900F70384 /* UIView+extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		81D7CD6D1F26E35700F70384 /* RedPackAndAssistiveTouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedPackAndAssistiveTouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81D7CD711F26E35700F70384 /* RedPackAndAssistiveTouchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedPackAndAssistiveTouchUITests.m; sourceTree = "<group>"; };
 		81D7CD731F26E35700F70384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81D7CD7F1F26E43200F70384 /* WindowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowView.h; sourceTree = "<group>"; };
+		81D7CD801F26E43200F70384 /* WindowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowView.m; sourceTree = "<group>"; };
+		81D7CD821F26E44900F70384 /* UIView+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+extension.h"; sourceTree = "<group>"; };
+		81D7CD831F26E44900F70384 /* UIView+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,10 @@
 		81D7CD4B1F26E35700F70384 /* RedPackAndAssistiveTouch */ = {
 			isa = PBXGroup;
 			children = (
+				81D7CD821F26E44900F70384 /* UIView+extension.h */,
+				81D7CD831F26E44900F70384 /* UIView+extension.m */,
+				81D7CD7F1F26E43200F70384 /* WindowView.h */,
+				81D7CD801F26E43200F70384 /* WindowView.m */,
 				81D7CD4F1F26E35700F70384 /* AppDelegate.h */,
 				81D7CD501F26E35700F70384 /* AppDelegate.m */,
 				81D7CD521F26E35700F70384 /* ViewController.h */,
@@ -202,6 +212,7 @@
 		81D7CD411F26E35600F70384 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = "";
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = com.RuanZhiHongYi;
 				TargetAttributes = {
@@ -278,7 +289,9 @@
 			files = (
 				81D7CD541F26E35700F70384 /* ViewController.m in Sources */,
 				81D7CD511F26E35700F70384 /* AppDelegate.m in Sources */,
+				81D7CD811F26E43200F70384 /* WindowView.m in Sources */,
 				81D7CD4E1F26E35700F70384 /* main.m in Sources */,
+				81D7CD841F26E44900F70384 /* UIView+extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +442,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WN5Z5LM42V;
 				INFOPLIST_FILE = RedPackAndAssistiveTouch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.RuanZhiHongYi.RedPackAndAssistiveTouch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,6 +455,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WN5Z5LM42V;
 				INFOPLIST_FILE = RedPackAndAssistiveTouch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.RuanZhiHongYi.RedPackAndAssistiveTouch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
