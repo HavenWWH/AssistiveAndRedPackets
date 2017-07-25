@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81D7CD4E1F26E35700F70384 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D7CD4D1F26E35700F70384 /* main.m */; };
+		81D7CD511F26E35700F70384 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D7CD501F26E35700F70384 /* AppDelegate.m */; };
+		81D7CD541F26E35700F70384 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D7CD531F26E35700F70384 /* ViewController.m */; };
+		81D7CD571F26E35700F70384 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D7CD551F26E35700F70384 /* Main.storyboard */; };
+		81D7CD591F26E35700F70384 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81D7CD581F26E35700F70384 /* Assets.xcassets */; };
+		81D7CD5C1F26E35700F70384 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D7CD5A1F26E35700F70384 /* LaunchScreen.storyboard */; };
+		81D7CD671F26E35700F70384 /* RedPackAndAssistiveTouchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D7CD661F26E35700F70384 /* RedPackAndAssistiveTouchTests.m */; };
+		81D7CD721F26E35700F70384 /* RedPackAndAssistiveTouchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D7CD711F26E35700F70384 /* RedPackAndAssistiveTouchUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81D7CD631F26E35700F70384 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81D7CD411F26E35600F70384 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81D7CD481F26E35700F70384;
+			remoteInfo = RedPackAndAssistiveTouch;
+		};
+		81D7CD6E1F26E35700F70384 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81D7CD411F26E35600F70384 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81D7CD481F26E35700F70384;
+			remoteInfo = RedPackAndAssistiveTouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81D7CD491F26E35700F70384 /* RedPackAndAssistiveTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedPackAndAssistiveTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81D7CD4D1F26E35700F70384 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81D7CD4F1F26E35700F70384 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		81D7CD501F26E35700F70384 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		81D7CD521F26E35700F70384 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		81D7CD531F26E35700F70384 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		81D7CD561F26E35700F70384 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81D7CD581F26E35700F70384 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81D7CD5B1F26E35700F70384 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81D7CD5D1F26E35700F70384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81D7CD621F26E35700F70384 /* RedPackAndAssistiveTouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedPackAndAssistiveTouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81D7CD661F26E35700F70384 /* RedPackAndAssistiveTouchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedPackAndAssistiveTouchTests.m; sourceTree = "<group>"; };
+		81D7CD681F26E35700F70384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81D7CD6D1F26E35700F70384 /* RedPackAndAssistiveTouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedPackAndAssistiveTouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81D7CD711F26E35700F70384 /* RedPackAndAssistiveTouchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedPackAndAssistiveTouchUITests.m; sourceTree = "<group>"; };
+		81D7CD731F26E35700F70384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81D7CD461F26E35700F70384 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81D7CD5F1F26E35700F70384 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81D7CD6A1F26E35700F70384 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81D7CD401F26E35600F70384 = {
+			isa = PBXGroup;
+			children = (
+				81D7CD4B1F26E35700F70384 /* RedPackAndAssistiveTouch */,
+				81D7CD651F26E35700F70384 /* RedPackAndAssistiveTouchTests */,
+				81D7CD701F26E35700F70384 /* RedPackAndAssistiveTouchUITests */,
+				81D7CD4A1F26E35700F70384 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81D7CD4A1F26E35700F70384 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81D7CD491F26E35700F70384 /* RedPackAndAssistiveTouch.app */,
+				81D7CD621F26E35700F70384 /* RedPackAndAssistiveTouchTests.xctest */,
+				81D7CD6D1F26E35700F70384 /* RedPackAndAssistiveTouchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81D7CD4B1F26E35700F70384 /* RedPackAndAssistiveTouch */ = {
+			isa = PBXGroup;
+			children = (
+				81D7CD4F1F26E35700F70384 /* AppDelegate.h */,
+				81D7CD501F26E35700F70384 /* AppDelegate.m */,
+				81D7CD521F26E35700F70384 /* ViewController.h */,
+				81D7CD531F26E35700F70384 /* ViewController.m */,
+				81D7CD551F26E35700F70384 /* Main.storyboard */,
+				81D7CD581F26E35700F70384 /* Assets.xcassets */,
+				81D7CD5A1F26E35700F70384 /* LaunchScreen.storyboard */,
+				81D7CD5D1F26E35700F70384 /* Info.plist */,
+				81D7CD4C1F26E35700F70384 /* Supporting Files */,
+			);
+			path = RedPackAndAssistiveTouch;
+			sourceTree = "<group>";
+		};
+		81D7CD4C1F26E35700F70384 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81D7CD4D1F26E35700F70384 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81D7CD651F26E35700F70384 /* RedPackAndAssistiveTouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				81D7CD661F26E35700F70384 /* RedPackAndAssistiveTouchTests.m */,
+				81D7CD681F26E35700F70384 /* Info.plist */,
+			);
+			path = RedPackAndAssistiveTouchTests;
+			sourceTree = "<group>";
+		};
+		81D7CD701F26E35700F70384 /* RedPackAndAssistiveTouchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81D7CD711F26E35700F70384 /* RedPackAndAssistiveTouchUITests.m */,
+				81D7CD731F26E35700F70384 /* Info.plist */,
+			);
+			path = RedPackAndAssistiveTouchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81D7CD481F26E35700F70384 /* RedPackAndAssistiveTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81D7CD761F26E35700F70384 /* Build configuration list for PBXNativeTarget "RedPackAndAssistiveTouch" */;
+			buildPhases = (
+				81D7CD451F26E35700F70384 /* Sources */,
+				81D7CD461F26E35700F70384 /* Frameworks */,
+				81D7CD471F26E35700F70384 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedPackAndAssistiveTouch;
+			productName = RedPackAndAssistiveTouch;
+			productReference = 81D7CD491F26E35700F70384 /* RedPackAndAssistiveTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81D7CD611F26E35700F70384 /* RedPackAndAssistiveTouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81D7CD791F26E35700F70384 /* Build configuration list for PBXNativeTarget "RedPackAndAssistiveTouchTests" */;
+			buildPhases = (
+				81D7CD5E1F26E35700F70384 /* Sources */,
+				81D7CD5F1F26E35700F70384 /* Frameworks */,
+				81D7CD601F26E35700F70384 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81D7CD641F26E35700F70384 /* PBXTargetDependency */,
+			);
+			name = RedPackAndAssistiveTouchTests;
+			productName = RedPackAndAssistiveTouchTests;
+			productReference = 81D7CD621F26E35700F70384 /* RedPackAndAssistiveTouchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81D7CD6C1F26E35700F70384 /* RedPackAndAssistiveTouchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81D7CD7C1F26E35700F70384 /* Build configuration list for PBXNativeTarget "RedPackAndAssistiveTouchUITests" */;
+			buildPhases = (
+				81D7CD691F26E35700F70384 /* Sources */,
+				81D7CD6A1F26E35700F70384 /* Frameworks */,
+				81D7CD6B1F26E35700F70384 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81D7CD6F1F26E35700F70384 /* PBXTargetDependency */,
+			);
+			name = RedPackAndAssistiveTouchUITests;
+			productName = RedPackAndAssistiveTouchUITests;
+			productReference = 81D7CD6D1F26E35700F70384 /* RedPackAndAssistiveTouchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81D7CD411F26E35600F70384 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = com.RuanZhiHongYi;
+				TargetAttributes = {
+					81D7CD481F26E35700F70384 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = WN5Z5LM42V;
+						ProvisioningStyle = Automatic;
+					};
+					81D7CD611F26E35700F70384 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = WN5Z5LM42V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81D7CD481F26E35700F70384;
+					};
+					81D7CD6C1F26E35700F70384 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = WN5Z5LM42V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81D7CD481F26E35700F70384;
+					};
+				};
+			};
+			buildConfigurationList = 81D7CD441F26E35600F70384 /* Build configuration list for PBXProject "RedPackAndAssistiveTouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81D7CD401F26E35600F70384;
+			productRefGroup = 81D7CD4A1F26E35700F70384 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81D7CD481F26E35700F70384 /* RedPackAndAssistiveTouch */,
+				81D7CD611F26E35700F70384 /* RedPackAndAssistiveTouchTests */,
+				81D7CD6C1F26E35700F70384 /* RedPackAndAssistiveTouchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81D7CD471F26E35700F70384 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81D7CD5C1F26E35700F70384 /* LaunchScreen.storyboard in Resources */,
+				81D7CD591F26E35700F70384 /* Assets.xcassets in Resources */,
+				81D7CD571F26E35700F70384 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81D7CD601F26E35700F70384 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81D7CD6B1F26E35700F70384 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81D7CD451F26E35700F70384 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81D7CD541F26E35700F70384 /* ViewController.m in Sources */,
+				81D7CD511F26E35700F70384 /* AppDelegate.m in Sources */,
+				81D7CD4E1F26E35700F70384 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81D7CD5E1F26E35700F70384 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81D7CD671F26E35700F70384 /* RedPackAndAssistiveTouchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81D7CD691F26E35700F70384 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81D7CD721F26E35700F70384 /* RedPackAndAssistiveTouchUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81D7CD641F26E35700F70384 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81D7CD481F26E35700F70384 /* RedPackAndAssistiveTouch */;
+			targetProxy = 81D7CD631F26E35700F70384 /* PBXContainerItemProxy */;
+		};
+		81D7CD6F1F26E35700F70384 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81D7CD481F26E35700F70384 /* RedPackAndAssistiveTouch */;
+			targetProxy = 81D7CD6E1F26E35700F70384 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81D7CD551F26E35700F70384 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81D7CD561F26E35700F70384 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81D7CD5A1F26E35700F70384 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81D7CD5B1F26E35700F70384 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81D7CD741F26E35700F70384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		81D7CD751F26E35700F70384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81D7CD771F26E35700F70384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WN5Z5LM42V;
+				INFOPLIST_FILE = RedPackAndAssistiveTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RuanZhiHongYi.RedPackAndAssistiveTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		81D7CD781F26E35700F70384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WN5Z5LM42V;
+				INFOPLIST_FILE = RedPackAndAssistiveTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RuanZhiHongYi.RedPackAndAssistiveTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		81D7CD7A1F26E35700F70384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WN5Z5LM42V;
+				INFOPLIST_FILE = RedPackAndAssistiveTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RuanZhiHongYi.RedPackAndAssistiveTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedPackAndAssistiveTouch.app/RedPackAndAssistiveTouch";
+			};
+			name = Debug;
+		};
+		81D7CD7B1F26E35700F70384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WN5Z5LM42V;
+				INFOPLIST_FILE = RedPackAndAssistiveTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RuanZhiHongYi.RedPackAndAssistiveTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedPackAndAssistiveTouch.app/RedPackAndAssistiveTouch";
+			};
+			name = Release;
+		};
+		81D7CD7D1F26E35700F70384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WN5Z5LM42V;
+				INFOPLIST_FILE = RedPackAndAssistiveTouchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RuanZhiHongYi.RedPackAndAssistiveTouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RedPackAndAssistiveTouch;
+			};
+			name = Debug;
+		};
+		81D7CD7E1F26E35700F70384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WN5Z5LM42V;
+				INFOPLIST_FILE = RedPackAndAssistiveTouchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RuanZhiHongYi.RedPackAndAssistiveTouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RedPackAndAssistiveTouch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81D7CD441F26E35600F70384 /* Build configuration list for PBXProject "RedPackAndAssistiveTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81D7CD741F26E35700F70384 /* Debug */,
+				81D7CD751F26E35700F70384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81D7CD761F26E35700F70384 /* Build configuration list for PBXNativeTarget "RedPackAndAssistiveTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81D7CD771F26E35700F70384 /* Debug */,
+				81D7CD781F26E35700F70384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		81D7CD791F26E35700F70384 /* Build configuration list for PBXNativeTarget "RedPackAndAssistiveTouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81D7CD7A1F26E35700F70384 /* Debug */,
+				81D7CD7B1F26E35700F70384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		81D7CD7C1F26E35700F70384 /* Build configuration list for PBXNativeTarget "RedPackAndAssistiveTouchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81D7CD7D1F26E35700F70384 /* Debug */,
+				81D7CD7E1F26E35700F70384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81D7CD411F26E35600F70384 /* Project object */;
+}
