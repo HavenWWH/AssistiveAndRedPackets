@@ -15,5 +15,5 @@
 ```
 
 ## DEMO    
-## ![image](https://github.com/HavenWWH/AssistiveAndRedPackets/master/redPackets.gif)  
+## ![image](https://github.com/HavenWWH/AssistiveAndRedPackets/raw/master/redPackets.gif)  
 
